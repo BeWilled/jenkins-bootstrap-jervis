@@ -1,4 +1,6 @@
 #!/bin/bash
+export JENKINS_HOME=/jervis_home
+export JENKINS_DEBUG_LEVEL=9
 source jenkins-bootstrap-shared/jenkins_bootstrap.sh
 
 #create the first job, _jervis_generator.  This will use Job DSL scripts to generate other jobs.
